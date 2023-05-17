@@ -10,17 +10,17 @@ const Resume: FC = memo(() => {
   return (
     <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
       <div className="flex flex-col divide-y-2 divide-neutral-300">
-        <ResumeSection title="Education">
+        <ResumeSection title="Accolades">
           {education.map((item, index) => (
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}
         </ResumeSection>
-        <ResumeSection title="Work">
+        <ResumeSection title="Experience">
           {experience.map((item, index) => (
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}
         </ResumeSection>
-        <ResumeSection title="Skills">
+        <ResumeSection title="Training Methods">
           <p className="pb-8">Here you can show a snapshot of your skills to show off to employers</p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
@@ -33,5 +33,5 @@ const Resume: FC = memo(() => {
   );
 });
 
-Resume.displayName = 'Resume';
+Resume.displayName = 'The Coach';
 export default Resume;
