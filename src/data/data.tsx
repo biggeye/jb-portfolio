@@ -179,7 +179,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '2008 - Present',
+    date: '2008  -  Present',
     location: 'Southern California',
     title: 'Coaching Hours',
     content: (
