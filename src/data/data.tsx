@@ -157,7 +157,8 @@ export const education: TimelineItem[] = [
     title: '',
     content: 
 <p>
-        <li>High Resistance Cord Stretch Training Band</li>
+    
+<li>High Resistance Cord Stretch Training Band</li>
         <li>Golfers Training Aid</li>
         <li>Alignment Sticks</li>
         <li>Phone Tripod</li>
@@ -171,7 +172,7 @@ export const education: TimelineItem[] = [
   <li>A Letter of recommendation for appropriate players</li>
   <li><a href="https://jamesjordangolf.com/plan/"><b><u>"The Plan"</u></b></a></li>
   <li><a href="https://store.jamesjordangolf.com/fight-of-flight/"><b><u>"Fight or Flight"</u></b></a></li>
-  <li>Local Fitness Training Session</li>
+  <li>Local Fitness Training Session</li>    
   </p>
 
   },
