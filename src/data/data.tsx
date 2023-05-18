@@ -152,39 +152,39 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: '2019',
-    location: 'Golf Digest',
-    title: 'Top 25 Coach',
-    content: <p></p>,
-  },
-  {
-    date: '2020',
-    location: 'Golf Digest',
-    title: 'Top 25 Coach',
-    content: <p></p>,
-  },
-  {
-    date: '2021',
-    location: 'Golf Digest',
-    title: 'Top 25 Coach',
-    content: <p></p>,
-  },
-  {
-    date: '2022',
-    location: 'Golf Digest',
-    title: 'Top 25 Coach',
-    content: <p></p>,
+    date: '',
+    location: 'Every player will receieve',
+    title: '',
+    content: 
+<p>
+        <li>High Resistance Cord Stretch Training Band</li>
+        <li>Golfers Training Aid</li>
+        <li>Alignment Sticks</li>
+        <li>Phone Tripod</li>
+        <li>Scrub Brush</li>
+  <li>Ball / Club Cleaning Towel</li>
+  <li>Complete Club Fitting - Loft, Lie, Yardages, Specs, Checked, and Recommendations</li>
+  <li>Flight School Tutorial Videos</li>
+  <li>Drinks, Snacks provided at any time of the day</li>
+  <li>All Golf Rounds</li>
+  <li>All Range balls</li>
+  <li>A Letter of recommendation for appropriate players</li>
+  <li><a href="https://jamesjordangolf.com/plan/"><b><u>"The Plan"</u></b></a></li>
+  <li><a href="https://store.jamesjordangolf.com/fight-of-flight/"><b><u>"Fight or Flight"</u></b></a></li>
+  <li>Local Fitness Training Session</li>
+  </p>
+
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: '2008  -  Present',
-    location: 'Southern California',
-    title: 'Coaching Hours',
+    date: 'Departure',
+    location: 'Post',
+    title: 'Your Personalized E-Pub',
     content: (
       <p>
-        50,000+
+        Including all of your notes, videos, and drills.  This is your personalized book, that you can refer to at any time.  You will have access to this book for the rest of your life.
       </p>
     ),
   },
