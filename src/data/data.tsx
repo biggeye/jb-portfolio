@@ -13,7 +13,6 @@ import testimonialpic from '../images/portfolio/testimonial-1.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
-  About,
   ContactSection,
   ContactType,
   Hero,
@@ -87,13 +86,6 @@ export const heroData: Hero = {
 /**
  * About section
  */
-export const aboutData: About = {
-  profileImageSrc: profilepic,
-  description: '',
-  aboutItems: [
-    {label: 'Coach', text: 'Video Swing Analysis, Short Game Mechanics, Feel, Fitness/Nutrition, Mental Approach.', Icon: SparklesIcon},
-  ],
-};
 
 /**
  * Skills section
