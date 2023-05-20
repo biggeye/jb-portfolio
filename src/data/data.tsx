@@ -4,10 +4,10 @@ import {
 
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import heroImage from '../images/header-background.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/IMG_1784.png';
 import porfolioImage3 from '../images/portfolio/IMG_1785.png';
 import porfolioImage4 from '../images/portfolio/IMG_1786.png';
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import testimonialpic from '../images/portfolio/testimonial-1.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
