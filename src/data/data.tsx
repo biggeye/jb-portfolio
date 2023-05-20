@@ -6,9 +6,9 @@ import {
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage3 from '../images/portfolio/img1784.png';
-import porfolioImage4 from '../images/portfolio/img1785.png';
-import porfolioImage5 from '../images/portfolio/img1786.png';
+import porfolioImage3 from '../images/portfolio/IMG_1784.png';
+import porfolioImage4 from '../images/portfolio/IMG_1785.png';
+import porfolioImage5 from '../images/portfolio/IMG_1786.png';
 import testimonialpic from '../images/portfolio/testimonial-1.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
