@@ -4,10 +4,10 @@ import {
 } from '@heroicons/react/24/outline';
 
 import InstagramIcon from '../components/Icon/InstagramIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.png';
+import testimonialpic from '../images/portfolio/testimonial-1.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -39,7 +39,7 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Portfolio: 'portfolio',
-  Resume: 'resume',
+  Resume: 'schedule',
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
@@ -69,8 +69,8 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/questionnaire.pdf',
-      text: 'Questionnaire',
+      href: 'https://aeye.world/flightschool',
+      text: 'Questionaire',
       primary: true,
       Icon: ArrowDownTrayIcon,
     },
@@ -87,7 +87,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: ``,
+  description: '',
   aboutItems: [
     {label: 'Coach', text: 'Video Swing Analysis, Short Game Mechanics, Feel, Fitness/Nutrition, Mental Approach.', Icon: SparklesIcon},
   ],
@@ -153,26 +153,26 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: '',
-    location: 'Every player will receieve',
-    title: '',
+    location: '',
+    title: 'Every Player Receives:',
     content: 
-<p>
-    
-<li>High Resistance Cord Stretch Training Band</li>
-        <li>Golfers Training Aid</li>
-        <li>Alignment Sticks</li>
-        <li>Phone Tripod</li>
-        <li>Scrub Brush</li>
-  <li>Ball / Club Cleaning Towel</li>
-  <li>Complete Club Fitting - Loft, Lie, Yardages, Specs, Checked, and Recommendations</li>
-  <li>Flight School Tutorial Videos</li>
-  <li>Drinks, Snacks provided at any time of the day</li>
-  <li>All Golf Rounds</li>
-  <li>All Range balls</li>
-  <li>A Letter of recommendation for appropriate players</li>
-  <li><a href="https://jamesjordangolf.com/plan/"><b><u>"The Plan"</u></b></a></li>
-  <li><a href="https://store.jamesjordangolf.com/fight-of-flight/"><b><u>"Fight or Flight"</u></b></a></li>
-  <li>Local Fitness Training Session</li>    
+      <p>
+          High Resistance Cord Stretch Training Band<br />
+Golfers Training Aid<br />
+Alignment Sticks<br />
+Phone Tripod<br />
+Scrub Brush<br />
+Ball / Club Cleaning Towel<br />
+Complete Club Fitting - Loft, Lie, Yardages, Specs, Checked, and Recommendations<br />
+Flight School Tutorial Videos<br />
+Drinks, Snacks provided at any time of the day<br />
+All Golf Rounds<br />
+All Range balls<br />
+A Letter of recommendation for appropriate players<br />
+<a href="https://jamesjordangolf.com/plan/"><b><u>"The Plan"</u></b></a><br />
+<a href="https://store.jamesjordangolf.com/fight-of-flight/"><b><u>"Fight or Flight"</u></b></a><br />
+Local Fitness Training Session<br />
+
   </p>
 
   },
@@ -180,8 +180,8 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Departure',
-    location: 'Post',
+    date: '(Within 7-10 Days)',
+    location: 'Post-Departure',
     title: 'Your Personalized E-Pub',
     content: (
       <p>
@@ -198,11 +198,11 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Angelo Palumbo (Licensed Fitness Instructor)',
-      text: 'When I came to James, I was trying to teach myself “stack and tilt” and self diagnose. I found that many of my fundamentals and self diagnostics we’re hurting my swing and golf performance. One day at the range, James noticed the challenges and offered to assist in bettering my swing. The changes that night were immediately effective and we began the process of a weekly meeting in bettering my swing. He has immensely improved my swing and thought process along the way.',
-      image: 'https://pbs.twimg.com/profile_images/3381558732/5809c8f3abc1a075d2ffcb53f78d40f0_400x400.jpeg',
+      name: 'Vincent & Father',      
+      text: 'I cannot speak highly enough of the passion, knowledge, training, and self belief James Jordan has done with my son, not only developing his golf skills but his confidence and work ethic as well.',
+      image: testimonialpic,
     },
-    {
+      {
       name: 'Elgin Baylor',
       text: 'Its always a good decision to see James before one of our Laker tournaments. He relates the tempo and feel of the golf swing “Like Shooting A Free Throw“ Nice and Smooth. Thanks for your help J.',
       image: 'https://cdn.nba.com/headshots/nba/latest/1040x760/76127.png',
@@ -241,5 +241,4 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/JAMESJORDANGOLF/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
