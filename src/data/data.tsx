@@ -1,6 +1,5 @@
 import {
-  ArrowDownTrayIcon,
-  SparklesIcon,
+  ArrowDownTrayIcon
 } from '@heroicons/react/24/outline';
 
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -10,7 +9,6 @@ import porfolioImage2 from '../images/portfolio/IMG_1784.png';
 import porfolioImage3 from '../images/portfolio/IMG_1785.png';
 import porfolioImage4 from '../images/portfolio/IMG_1786.png';
 import testimonialpic from '../images/portfolio/testimonial-1.jpg';
-import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   ContactSection,
